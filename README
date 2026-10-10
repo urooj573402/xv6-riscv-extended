@@ -46,3 +46,11 @@ You will need a RISC-V "newlib" tool chain from
 https://github.com/riscv/riscv-gnu-toolchain, and qemu compiled for
 riscv64-softmmu.  Once they are installed, and in your shell
 search path, you can run "make qemu".
+
+NEW COMPONENTS (PLANNED)
+
+1. getppid (system call): returns the PID of the parent process
+2. trace (system call): traces the system calls made by a process
+3. sysinfo (system call): reports free memory and the number of processes
+4. ps (user program): lists processes (PID, state, name)
+5. uptime (user program): shows system uptime (in ticks)
